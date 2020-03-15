@@ -8,12 +8,11 @@ The project uses BDD to write test scenarios and it's structure was constructed 
 
 You'll need to install the following:
 - Chrome Webdriver
-- Ruby 2.3:
+- Ruby >= 2.4
     * Gem bundler
-- Cucumber: 3.x
+- Cucumber >= 3.10
 - Git
 
-Ps: You can use RailsInstaller (recommended with ruby 2.3 version)
 ## Installation
 You should install chrome webdriver, there are different methods to install it for each OS.
 ```Windows
@@ -105,4 +104,3 @@ VERSION = 2.56
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
-
