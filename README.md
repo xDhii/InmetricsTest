@@ -1,4 +1,4 @@
-# Inmetrics Automation Project
+# Inmetrics Automation Project Test
 This project has the goal of automate Inmetrics test with structure using Cucumber in Ruby, also has
 implementation of the design pattern page objects with an example feature of Login.
 
