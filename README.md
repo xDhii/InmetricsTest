@@ -19,14 +19,17 @@ You'll need to install the following:
 
 You should install chrome webdriver, there are different methods to install it for each OS.
 
+Windows
 ```Windows
 Download the correct webdriver version and leave it on C:\Windows folder
 ```
 
+Mac OS
 ```Mac OS
 brew install chromedriver
 ```
 
+Linux
 ```Linux
 Download the correct webdriver version and leave it on /usr/local/bin folder
 ```
