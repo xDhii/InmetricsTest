@@ -29,8 +29,8 @@ end
 
 When("I sign in on the page") do
     find(:xpath, "//ul[contains(@class,'right')]//a[@data-target='signinbox']").click
-    find(:xpath, "//div[@id='signinbox']//input[@name='login']").set @login
-    find(:xpath, "//div[@id='signinbox']//input[@name='password']").set @password
+    find(:xpath, "//div[@id='signinbox']//input[@name='login']").set  @login
+    find(:xpath, "//div[@id='signinbox']//input[@name='password']").set  @password
     find(:xpath, "//div[@class='modal-footer']//a[contains(text(), 'Sign in')]").click
 end
 
