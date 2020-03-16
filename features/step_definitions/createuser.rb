@@ -10,8 +10,8 @@ When("I fill the Sign Up name, login and password fields") do
     @name = p SecureRandom.urlsafe_base64(10)
     @login = p SecureRandom.urlsafe_base64(10)
     @password = p SecureRandom.urlsafe_base64(10)
-    find(:xpath, "//input[@name='name']").set  @name
-    find(:xpath, "//input[@name='login']").set  @login
+    find(:xpath, "//input[@name='name']").set   @name
+    find(:xpath, "//input[@name='login']").set   @login
     find(:xpath, "//input[@name='password']").set  @password
 end
 
